@@ -1,0 +1,74 @@
+*{box-sizing: border-box;
+padding: 0px;
+margin: 0px;}
+.background{
+    position: relative;
+    top: -150px;
+    height: 130vh;
+border: 2px solid black;
+z-index: -1;
+   background-image: url('../../assets/background/hero-bg.png.webp');
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+.bgchild{
+    /* border: 5px solid black; */
+    color: aliceblue;
+    margin-top: 200px;
+    min-height: 400px;
+    text-align: center;
+    margin-left: 120px;
+  
+}
+.bgchild span {
+  font-size: 30px;
+}
+.bgchild h1{
+    font-size: 100px;
+    font-family:  "Rockville Solid Regular";
+}
+
+@media screen and (min-width:400px) and (max-width:900px){
+    .background{background-size: cover;
+        height: 250vh;
+    }
+    .bgchild{
+        border: 5px solid black;
+        color: aliceblue;
+        margin-top: 200px;
+        min-height: 400px;
+        text-align: center;
+        margin-left: 40px;
+      
+    }
+}
+@media screen  and (min-width:0px) and (max-width:400px){
+    .background{background-size: cover;
+        height: 200vh;
+        border: 2px solid red;
+    }
+    .bgchild{
+        border: 5px solid black;
+        color: aliceblue;
+        margin-top: 200px;
+        min-height: 400px;
+        text-align: center;
+        margin-left: 0px;
+      
+    }
+}
+.footerparent{
+    position: relative;
+}
+.footerstyle{
+    position: absolute;
+    top: 400px;
+}
+@media (max-width:700px) {
+    .footerstyle{
+        position: absolute;
+        top: 300px;
+        border: 2px solid saddlebrown;
+    }
+}

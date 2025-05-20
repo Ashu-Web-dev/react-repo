@@ -1,0 +1,12 @@
+.youtube h4{
+    line-height: 34px;
+    font-weight: 700;
+    color: black;
+    margin-top: 20px;
+    margin-left: 2px;
+}
+
+.youtube img{
+    height: 70%;
+    width: 100%;
+}

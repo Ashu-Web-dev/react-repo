@@ -1,0 +1,54 @@
+.linep{
+    height: 12px;
+
+min-width:400px;
+background-color: #9683ba;;
+border-right: 1px solid;
+
+
+}
+.linec{
+    height: 12px;
+    min-width: 370px;
+    
+   
+    background-color: lightgrey;
+}
+.linegp{
+    background-color: #6f42c1;;
+   
+}
+.background{
+    background-image: url('../../assets/about/image.png');
+    background-position: center;
+    background-repeat: no-repeat;
+   
+    border: 2px solid black;
+    background-size: cover;
+    z-index: 1;
+    margin-top: 200px;
+}
+
+@media screen and (max-width: 998px) {
+    .aboutch{
+        flex-direction: column;
+    min-width: 155%;
+    
+    background-color: #6f42c1;;
+    
+    }
+    .linegp{
+        min-width: 100%;
+        margin-bottom: 150px;
+    }
+    .linep{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .background{
+        min-width: 100%;
+       
+    }
+
+}

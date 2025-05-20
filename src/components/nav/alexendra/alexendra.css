@@ -1,0 +1,36 @@
+.alex{
+   
+   align-content: center;
+}
+.alex h1{
+    font-weight: 700;
+    color: black;
+}
+.alex p{
+    margin-top: 50px;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 500;
+   
+
+}
+.alex button{
+    background-color:#5c00ce;
+    height: 50px;
+    margin-top: 30px;
+    width: 170px;
+    
+    letter-spacing: 2px;
+border-style: none;
+}
+.alex button a{
+    text-decoration: none;
+    color: white;
+}
+.alexp{
+    box-shadow: 10px 20px 50px black;
+    border-radius: 1.5%;
+}
+.alx img{height: 100%;
+
+width: 100%;}

@@ -1,0 +1,31 @@
+.crousalparent{
+    justify-content: space-evenly;
+}
+.crousalparent div {
+    height: 100%;
+   
+}
+.crousal {
+    position: relative;
+    text-align: center;
+   height: 50%;
+}
+.crousal img{
+    width: 80%;
+    height: 80%;
+    margin-left: 30px;
+  
+}
+.crousal h4{
+margin-top: 20px;
+}
+.cardbutton{
+    background-color: rgb(100, 33, 133);
+    height: 40px;
+    width: 100px;
+ position: absolute;
+ top: 1px;
+color:  white;
+ left: 110px;
+ top:375px
+}

@@ -1,0 +1,42 @@
+.tourch1{
+    height:450px;
+    position: relative;
+    border: 20px solid lightgray;
+    position: relative;
+}
+.tourch1 img{
+    height: 100%;
+    position: absolute;
+    top: 30px;
+    left: -50px;
+}
+
+.tourch4{
+    position: absolute;
+    top: 45px;
+    height: 400px;
+    left: 45px;
+}
+.tourch4 img{
+    height: 450px;
+    width: 500px;
+}
+.bts{
+    min-height: 50px;
+    min-width: 130px;
+    border: 2px solid blue;
+}
+.bts:hover{
+    background-color: blue;
+    color: white;
+}
+.border{
+    border: 1px solid lightgray;
+    display: inline-block;
+    width: 70%;
+}
+.fontweight{
+font-weight: 500;
+
+}
+

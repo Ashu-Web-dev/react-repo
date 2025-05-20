@@ -1,0 +1,132 @@
+.nav{
+color: antiquewhite;
+background-color: #340c5c;
+opacity: 0.9;
+position: sticky;
+top :0px;
+z-index: 1;
+}
+.navchild{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+}
+
+.navchild li{
+    list-style: none;
+}
+.dec {
+    text-decoration: none;
+    color: white;
+    
+}
+
+.men{
+    display: none;
+   
+}
+.dec:hover{
+    background-color:blue;
+}
+@media screen and (min-width:600px) and (max-width:800px){
+    .navchild{
+        display: none;
+       
+      
+    }
+    .navchild.active{
+        display: flex;
+        flex-direction: column;
+        z-index: 1;
+        height: 100%;
+      
+    }
+    .navchild2{
+        display: none;
+    }
+    .men{
+        display: block;
+        position: absolute;
+        left:400px;
+        top:35px;
+
+    }
+   
+}
+@media screen and (min-width:490px) and (max-width:612px){
+    .navchild{
+        display: none;
+    }
+    .navchild.active{
+        display: flex;
+        flex-direction: column;
+        z-index: 1;
+        height: 100%;
+      
+    }
+    .navchild2{
+        display: none;
+    }
+   .men{
+    display: block;
+    position: absolute;
+    left:400px;
+    top:20px;
+
+   } 
+
+}
+@media screen and (min-width:400px) and (max-width:490px){
+    .navchild{
+        display: none;
+    }
+    .navchild.active{
+        display: flex;
+        flex-direction: column;
+        z-index: 1;
+        height: 100%;
+      
+    }
+    .navchild2{
+        display: none;
+    }
+   .men{
+    display: block;
+    position: absolute;
+    left:350px;
+    top:20px;
+
+   } 
+
+}
+@media screen and (min-width:782px) and (max-width:800px){
+
+    .men{
+        display: block;
+        position: absolute;
+        left:600px;
+        top:35px;
+
+    }
+}
+@media screen and (min-width:300px) and (max-width:400px){
+    .navchild{
+        display: none;
+    }
+    .navchild.active{
+        display: flex;
+        flex-direction: column;
+        z-index: 1;
+        height: 100%;
+      
+    }
+    .men{
+        display: block;
+        position: absolute;
+        left:250px;
+        top:35px;
+
+    }
+
+}

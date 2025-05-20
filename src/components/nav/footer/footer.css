@@ -1,0 +1,59 @@
+.footer{
+    position: relative;
+}
+.footerchild{
+    position: absolute;
+  top: 160px;
+    color: aliceblue;
+    width: 100%;
+}
+.icon{
+color:blue;
+    height:30px;
+   width: 30px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top: 13px;
+   
+}
+.footeritem{
+    color: aliceblue;
+    position: relative;
+    height: 70px;
+    list-style: none;
+    
+}
+.footeritem p{
+    position: absolute;
+    top: 0px;
+    left: 50px;
+    font-size: 20px;
+    font-weight: 500;
+} 
+.footerinput{
+    height: 40px;
+    font-weight: 600;
+    color:white;
+    background-color: rgba(67, 31, 139, 0.757);
+}
+.icons{
+    color: blue;
+    font-size:40px;
+    border-radius: 50%;
+}
+/* @media screen and (min-width:672px) and (max-width:1400px){
+    .footer{
+        height: 125vh;
+        border:2px solid rgb(31, 170, 59)
+
+    } 
+} */
+   @media (max-width:600px){
+    .footer{
+        height: 165vh;
+    } 
+.footerchild{
+    top: 250px;
+}
+   }
